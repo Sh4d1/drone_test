@@ -1,0 +1,7 @@
+pipeline:
+    build:
+        image: golang
+        commands:
+            - go install github.com/golang/example/outyet
+            - go build
+            - go test
